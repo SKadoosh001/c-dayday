@@ -22,7 +22,6 @@ int remove_val(int nums[], int leng, int val) {
 	return low;
 }
 
-int
 int main() {
 	int arr[9] = { 1,2,3,4,4,4,5,6,7 };
 	int len = remove_val(arr,9,5);
